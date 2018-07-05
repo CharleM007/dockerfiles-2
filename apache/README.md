@@ -6,8 +6,16 @@ It installs some common commands to help with debugging and useful for this tuto
 
 ## Build
 
-    docker build -t apache:tutorial .
+    docker build -t tongueroo/apache:tutorial .
 
 ## Run
 
-    docker run apache:tutorial
+    docker run tongueroo/apache:tutorial
+
+## Push
+
+    docker push tongueroo/apache:tutorial
+
+## Notes
+
+Replace tongueroo with your own DockerHub username if you are going through the tutorial.
